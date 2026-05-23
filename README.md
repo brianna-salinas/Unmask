@@ -1,4 +1,4 @@
-# 🔍 UNMASK v2 — Análisis de la Red Territorial del Crimen en Perú
+# UNMASK — Análisis de la Red Territorial del Crimen en Perú
 
 <p align="center">
   <img src="img/unmask.png" alt="UNMASK Logo" width="160"/>
@@ -14,13 +14,12 @@
   <img src="https://img.shields.io/badge/Tkinter-GUI-9B59B6" />
   <img src="https://img.shields.io/badge/NetworkX-3.x-orange" />
   <img src="https://img.shields.io/badge/GeoPandas-0.14%2B-green" />
-  <img src="https://img.shields.io/badge/Estado-Funcional-brightgreen" />
-  <img src="https://img.shields.io/badge/UPC-Complejidad%20Algorítmica-red" />
+
 </p>
 
 ---
 
-## 📋 Tabla de Contenidos
+## Tabla de Contenidos
 
 - [Descripción del Proyecto](#-descripción-del-proyecto)
 - [Contexto del Problema](#-contexto-del-problema)
@@ -38,7 +37,7 @@
 
 ---
 
-## 🎯 Descripción del Proyecto
+## Descripción del Proyecto
 
 **UNMASK** es una aplicación de escritorio desarrollada en Python que analiza la distribución territorial del crimen en el Perú a nivel distrital, modelando la red delictiva como un **grafo no dirigido y ponderado** sobre los datos del Sistema de Denuncias Policiales (SIDPOL 2024-2025).
 
@@ -70,7 +69,7 @@ Los análisis convencionales basados en cifras agregadas resultan insuficientes 
 
 ---
 
-## 📊 Dataset SIDPOL
+## Dataset SIDPOL
 
 ### Origen
 **Base de datos del Sistema de Denuncias Policiales (SIDPOL)** — Ministerio del Interior del Perú, publicada a octubre de 2025.
@@ -100,7 +99,7 @@ Los análisis convencionales basados en cifras agregadas resultan insuficientes 
 
 ---
 
-## 🏗 Arquitectura del Sistema
+## Arquitectura del Sistema
 
 ```
 UNMASK v2
@@ -143,7 +142,7 @@ Tipo: No dirigido, ponderado, geográfico
 
 ---
 
-## ⚙️ Algoritmos Implementados
+## Algoritmos Implementados
 
 ### 1. BFS / DFS — Expansión Territorial del Delito
 
@@ -199,7 +198,7 @@ Complejidad: O(E log E)
 
 ---
 
-## 🖥 Interfaz de Usuario
+## Interfaz de Usuario
 
 La interfaz está desarrollada en **Tkinter puro** con un diseño oscuro moderno, organizada en 4 secciones principales:
 
@@ -241,7 +240,7 @@ La interfaz está desarrollada en **Tkinter puro** con un diseño oscuro moderno
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/Bal2220/Unmask.git
+git clone https://github.com/brianna-salinas/Unmask.git
 cd Unmask
 
 # 2. (Recomendado) Crear entorno virtual
@@ -274,7 +273,7 @@ python Unmask.py
 
 ---
 
-## 📖 Uso
+## Uso
 
 ### Credenciales de acceso (demo)
 ```
@@ -315,7 +314,7 @@ Usuario: Brianna    Contraseña: U202410239
 
 ---
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 Unmask/
@@ -348,7 +347,7 @@ Unmask/
 
 ---
 
-## 📈 Resultados y Validación
+## Resultados y Validación
 
 ### Métricas del sistema (datos SIDPOL 2024-2025)
 
@@ -385,13 +384,14 @@ Rutas críticas:
   R2: VES → SJM → VMA         (1 792 casos acumulados) — Riesgo crítico
 ```
 
-### Capturas de pantalla
+---
 
-> Las pantallas de la aplicación se encuentran documentadas en el informe PDF adjunto (sección 5 — Validación de resultados y pruebas, imágenes 01-17).
+### Demo
+
 
 ---
 
-## 🔬 Conclusiones
+## Conclusiones
 
 ### 1. Caracterización estructural de la criminalidad territorial
 La modelación como grafo no dirigido y ponderado con más de 1 800 nodos permitió representar con precisión la distribución territorial de los delitos. Los algoritmos MST/Kruskal, Floyd-Warshall, BFS y DFS facilitaron la identificación de nodos estratégicos, rutas críticas y patrones de expansión delictiva, superando la simple agregación estadística.
@@ -410,13 +410,6 @@ La arquitectura modular con filtros por unidad territorial, tipo de delito y per
 
 ---
 
-## 👩‍💻 Integrantes
-
-| Código | Nombre |
-|--------|--------|
-| U202311258 | María Patricia Hernández Uchuya |
-| U202410239 | Brianna Cristina Salinas Guzmán |
-
 **Curso:** 1ACC0184 — Complejidad Algorítmica  
 **Sección:** 1408  
 **Profesor:** John Edward Arias Orihuela  
@@ -425,7 +418,7 @@ La arquitectura modular con filtros por unidad territorial, tipo de delito y per
 
 ---
 
-## 📚 Referencias
+## Referencias
 
 1. **Ministerio del Interior del Perú.** (2025). *Base de datos del Sistema de Denuncias Policiales – SIDPOL a octubre del 2025.* https://www.gob.pe/institucion/mininter/informes-publicaciones/7384293-base-de-datos-del-sidpol-a-octubre-del-2025
 
@@ -441,7 +434,7 @@ La arquitectura modular con filtros por unidad territorial, tipo de delito y per
 
 ---
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto fue desarrollado con fines académicos para el curso de Complejidad Algorítmica — Universidad Peruana de Ciencias Aplicadas (UPC), 2025.
 
@@ -451,5 +444,5 @@ Los datos del SIDPOL son de acceso público, provistos por el Ministerio del Int
 
 <p align="center">
   Hecho con 🔍 para el análisis de la seguridad ciudadana en el Perú<br/>
-  <b>UNMASK v2 © 2025 — UPC</b>
+  <b>UNMASK © 2025 </b>
 </p>
