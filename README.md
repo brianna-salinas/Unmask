@@ -410,14 +410,6 @@ La arquitectura modular con filtros por unidad territorial, tipo de delito y per
 
 ---
 
-**Curso:** 1ACC0184 — Complejidad Algorítmica  
-**Sección:** 1408  
-**Profesor:** John Edward Arias Orihuela  
-**Institución:** Universidad Peruana de Ciencias Aplicadas (UPC)  
-**Fecha:** Noviembre 2025  
-
----
-
 ## Referencias
 
 1. **Ministerio del Interior del Perú.** (2025). *Base de datos del Sistema de Denuncias Policiales – SIDPOL a octubre del 2025.* https://www.gob.pe/institucion/mininter/informes-publicaciones/7384293-base-de-datos-del-sidpol-a-octubre-del-2025
